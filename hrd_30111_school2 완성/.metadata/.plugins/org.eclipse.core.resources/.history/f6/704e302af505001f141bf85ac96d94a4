@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<jsp:include page="header.jsp"></jsp:include>
+<nav style="top: 80px; ">
+	<a href="#">학생현황</a>
+	<a href="#">성적입력</a>
+	<a href="#">성적현황</a>
+	<a href="#">과목별성적 조회</a>
+	<a href="#">홈으로</a>
+</nav>
+
+
+
+<jsp:include page="footer.jsp"></jsp:include>
+</body>
+</html>

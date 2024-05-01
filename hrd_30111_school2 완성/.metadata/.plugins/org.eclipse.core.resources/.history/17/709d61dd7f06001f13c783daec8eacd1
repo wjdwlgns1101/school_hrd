@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<jsp:include page="header.jsp"></jsp:include>
+
+<section style="position: fixed; background-color: gray; width: 100%; top: 70px; height: 100%; left: 0;">
+	<h2 style="text-align: center;"><b>과정평가형 자격 CBQ</b></h2>	
+	<h5 style="padding-left: 20px"> 국가직무능력표준(NSC:National Competeny Standards)으로 설계된 교육 훈력과정을 충실히 이수한 후, 내부 외부 평가를 거쳐 일정 합격기준을 충족하는 교율 훈련생에게 구가기술자격을 부여하는 제도 </h5>
+	<p style="padding-left: 20px">
+	산업현장 증상의 교육평가 더 커지는 능력! <br>
+	알고 있는 것에 할 수 있는 것을 더하는 <br>
+	과정 평가형 자격은 <br>
+	형장 증상형 인재육성을 지원합니다.
+	
+	</p>
+
+</section>
+
+
+<jsp:include page="footer.jsp"></jsp:include>
+</body>
+</html>

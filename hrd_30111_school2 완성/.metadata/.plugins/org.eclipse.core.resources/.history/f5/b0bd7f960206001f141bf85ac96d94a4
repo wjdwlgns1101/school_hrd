@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript" src="check.js"></script>
+<jsp:include page="header.jsp"></jsp:include>
+
+<section style="position: fixed; background-color: gray; width: 100%; top: 70px; height: 100%; left: 0;">
+	<h2 style="text-align: center;"><b>성적입력</b></h2>	
+	
+	<tr>
+		<td style="text-align: center;"> 수강월 </td>
+		<td> <input type="text" name="resist_month" style="width: 200px">
+	
+
+</section>
+
+
+<jsp:include page="footer.jsp"></jsp:include>
+
+
+</body>
+</html>

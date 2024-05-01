@@ -1,0 +1,8 @@
+<%@ page import="java.sql.*" %>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%
+Class.for.Name("oracle.jdbc.OracleDriver");
+Connection conn = DriverManager.getConnection
+%>
+

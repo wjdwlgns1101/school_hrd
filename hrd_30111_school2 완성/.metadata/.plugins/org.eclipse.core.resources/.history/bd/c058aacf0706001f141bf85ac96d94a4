@@ -1,0 +1,49 @@
+function add(){
+	
+	if(frm.sid.valuse.length == 0){
+		alert('학번 입력 하세요');
+		frm.sid.focus();
+		return false;
+	}
+	else if(frm.sname.valuse.length == 0){
+		alert('이름 입력 하세요');
+		frm.sname.focus();
+		return false;
+	}
+	else if(frm.midsocre.valuse.length == 0){
+		alert('중간을 입력하세요');
+		frm.midsocre.focus();
+		return false;
+	}
+	else if(frm.finalscore.valuse.length == 0){
+		alert('기말을 입력하세요');
+		frm.finalscore.focus();
+		return false;
+	}
+	else if(frm.attend.valuse.length == 0){
+		alert('출석을 입력하세요');
+		frm.attend.focus();
+		return false;
+	}
+	else if(frm.email.valuse.length == 0){
+		alert('레포트를 입력하세요');
+		frm.email.focus();
+		return false;
+	}
+	else if(frm.email.valuse.length == 0){
+		alert('기타를 입력하세요');
+		frm.email.focus();
+		return false;
+	}
+	else {
+		alert("수강신청 완료")
+		document.frm.submit();
+		return ture;
+		
+	}
+
+
+
+
+
+}

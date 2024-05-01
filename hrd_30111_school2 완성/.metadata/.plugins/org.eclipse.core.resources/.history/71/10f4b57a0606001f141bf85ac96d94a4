@@ -1,0 +1,38 @@
+function add(){
+	
+	if(frm.sid.valuse.length == 0){
+		alert('학번 입력 하세요');
+		frm.sid.focus();
+		return false;
+	}
+	if(frm.sname.valuse.length == 0){
+		alert('학번 입력 하세요');
+		frm.sid.focus();
+		return false;
+	}
+	if(frm.jumin.valuse.length == 0){
+		alert('학번 입력 하세요');
+		frm.sid.focus();
+		return false;
+	}
+	if(frm.dept_name.valuse.length == 0){
+		alert('학번 입력 하세요');
+		frm.sid.focus();
+		return false;
+	}
+	if(frm.phone.valuse.length == 0){
+		alert('학번 입력 하세요');
+		frm.sid.focus();
+		return false;
+	}
+	if(frm.email.valuse.length == 0){
+		alert('학번 입력 하세요');
+		frm.sid.focus();
+		return false;
+	}
+
+
+
+
+
+}

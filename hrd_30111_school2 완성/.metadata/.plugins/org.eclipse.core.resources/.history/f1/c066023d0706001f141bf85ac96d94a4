@@ -1,0 +1,38 @@
+function add(){
+	
+	if(frm.sid.valuse.length == 0){
+		alert('학번 입력 하세요');
+		frm.sid.focus();
+		return false;
+	}
+	if(frm.sname.valuse.length == 0){
+		alert('이름 입력 하세요');
+		frm.sname.focus();
+		return false;
+	}
+	if(frm.jumin.valuse.length == 0){
+		alert('주민번호를 입력 하세요');
+		frm.jumin.focus();
+		return false;
+	}
+	if(frm.dept_name.valuse.length == 0){
+		alert('성별 입력 하세요');
+		frm.dept_name.focus();
+		return false;
+	}
+	if(frm.phone.valuse.length == 0){
+		alert('전화번호를 입력 하세요');
+		frm.phone.focus();
+		return false;
+	}
+	if(frm.email.valuse.length == 0){
+		alert('이메일을 입력 하세요');
+		frm.email.focus();
+		return false;
+	}
+
+
+
+
+
+}
