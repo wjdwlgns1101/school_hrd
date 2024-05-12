@@ -1,0 +1,15 @@
+<%@ page language="java" contentType="text/html; charset=utf-8"
+    pageEncoding="utf-8"%>
+<%@ page import="java.sql.*" %>
+
+<%
+Connection conn = null;
+try{
+    Class.forName("com.mysql.cj.jdbc.Driver");
+    conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/myDB","root","0000");
+}
+catch(Exception e){
+    e.printStackTrace();
+}
+
+%>
